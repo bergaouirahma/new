@@ -1,0 +1,139 @@
+.contact_img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  filter: brightness(70%);
+}
+.contact_para {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 62%;
+  left: 8%;
+}
+.contc {
+  width: 100%;
+  margin: 30px 0px;
+  text-align: center;
+  padding: 0px 10px;
+}
+.contc > h3 {
+  font-family: "Arial", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+.contc > h3::before {
+  position: absolute;
+  content: "";
+  left: 30%;
+  bottom: -10px;
+  height: 4px;
+  width: 40%;
+  background-color: #2487c0;
+}
+.contc > p {
+  color: #2487c0;
+  margin-bottom: 0px;
+  font-size: 23px;
+}
+form {
+  padding: 5%;
+}
+.contact-alert {
+  position: fixed;
+  top: 23%;
+  right: 10px;
+  border-radius: 6px;
+  background: #37c95c;
+  color: white;
+  padding: 10px;
+  font-size: 19px;
+  transition: 0.5s;
+}
+.erreur-form {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px soli #2487c0;
+  border-radius: 5px;
+  padding: 5px;
+}
+.erreur-form > p {
+  text-align: center;
+  color: #2487c0;
+  margin: 0px;
+}
+
+.info {
+  padding-top: 20px;
+}
+
+.info > h3 {
+  /* text-align: center; */
+  font-weight: 600;
+}
+.info > div {
+  margin: 10px 0px;
+}
+.info p {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(73, 72, 72);
+}
+.info i {
+  margin-right: 7px;
+}
+
+@media screen and (max-width: 991px) {
+  .info {
+    align-items: center;
+    text-align: center;
+    padding: 0px !important;
+    margin-top: 30px;
+  }
+  form {
+    padding: 5% 15%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contc > h3 {
+    font-size: 26px;
+  }
+  .contc > p {
+    font-size: 20px;
+  }
+  form {
+    padding: 5%;
+  }
+  .contact-alert {
+    font-size: 18px;
+  }
+  .contact_para {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .contact-alert {
+    font-size: 15px;
+  }
+  .contact_img {
+    height: 310px !important;
+  }
+  .contact_para {
+    top: 70%;
+  }
+}
+
+.btn-block {
+  background-color: #2487c0 !important;
+}
+
+.form-control {
+  border: 1px soli #2487c0;
+}

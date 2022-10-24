@@ -1,0 +1,698 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.vl {
+  border-left: 50px solid #f0c300;
+  height: 500px;
+  margin-left: 306%;
+}
+
+.form-page-home-gouche {
+  background-color: gray;
+  width: 70%;
+  height: 500px;
+}
+
+.Entreprise {
+  margin-left: 20%;
+  margin-top: 10%;
+  border: 5px groove #017ae2;
+  width: 380px;
+  height: 74px;
+  color: #017ae2;
+  font-family: var(--font-family-sylfaen);
+  font-size: 50px;
+  line-height: 52.2px;
+  min-height: 32px;
+  min-width: 116px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.titre-boloc21 {
+  margin-left: -30% !important;
+  color: black;
+  font-family: tahoma;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 27px;
+  min-height: 29px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+  padding-bottom: 5% !important;
+}
+
+.span01 {
+  color: #c5090e;
+}
+
+.span1 {
+  font-size: 30px;
+}
+
+.bloc-droit {
+  margin-top: 10%;
+}
+
+@font-face {
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url("https://fonts.animaapp.com/Tahoma") format("truetype");
+}
+
+.lorem-ipsum-ipsum2 {
+  color: black;
+  font-family: tahoma;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  min-height: 18px;
+  min-width: 114px;
+  padding-left: 16%;
+  white-space: nowrap;
+}
+
+.is-simply-dummy-text1 {
+  margin-left: 13%;
+  font-size: 20px;
+  height: 276px;
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 276px;
+  min-width: 282px;
+  width: 550px;
+}
+
+@font-face {
+  font-family: "PalatinoLinotype-Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PalatinoLinotype-Roman")
+    format("truetype");
+}
+
+.rectangle-2-copy {
+  background-color: #febb5b;
+  position: absolute;
+  height: 900px !important;
+  width: 38px;
+  padding: 0 !important;
+  margin-left: 93% !important;
+  margin-top: 2%;
+}
+.rectangle-2-copy0 {
+  background-color: #febb5b;
+  position: absolute;
+  height: 350px;
+  width: 38px;
+  padding: 0 !important;
+  margin-left: 93% !important;
+}
+
+.rectangle-56 {
+  border: 9px solid #b0b1ad;
+  margin-left: 8%;
+  background-color: #cfd5d4 !important;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 37vw;
+  width: 50vw;
+  margin-top: 10%;
+}
+.button-plus-link {
+  color: black;
+  padding-top: 500px !important;
+  line-height: 27px;
+  letter-spacing: 0;
+
+  text-align: center;
+  white-space: nowrap;
+  width: 100px;
+  height: 46px;
+}
+.button-plus-link:hover {
+  color: black;
+}
+.button-plus {
+  padding-top: 8px !important;
+
+  line-height: 27px;
+  font-size: 20px;
+  letter-spacing: 0;
+  font-weight: bold;
+  min-height: 29px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+  width: 150px;
+  height: 46px;
+  background: #fcc09d 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  color: black;
+  margin-left: 30%;
+}
+
+.button-plus:hover {
+  color: black;
+  width: 150px;
+  height: 46px;
+  background: #ee5b06 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+}
+/*# sourceMappingURL=Entreprise.css.map */
+.rectangle-567 {
+  border: 9px solid #b0b1ad;
+  margin-left: 8%;
+  background-color: #cfd5d4 !important;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 50px #0000009e;
+  box-shadow: 0px 0px 50px #0000009e;
+  height: 45vw;
+  width: 60vw;
+}
+
+.logo {
+  margin-top: 20%;
+  height: 150px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 30vw;
+}
+
+.img-gry {
+  height: 130%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 130.5%;
+  margin-left: -20%;
+  margin-top: -50%;
+}
+
+.titre-bloc1 {
+  margin-top: 10%;
+  color: black;
+  font-family: "Open sans";
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 40px;
+  min-height: 29px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+  margin-left: 10%;
+  padding-bottom: 5% !important;
+}
+
+.pg1 {
+  margin-left: 13%;
+  font-size: 23px;
+  height: 276px;
+  letter-spacing: 0;
+  line-height: 50px;
+  min-height: 276px;
+  min-width: 282px;
+  width: 550px;
+}
+/*# sourceMappingURL=home.css.map */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 16;
+  overflow-x: hidden;
+}
+
+.form-page-home-gouche {
+  background-color: gray;
+  width: 70%;
+  height: 500px;
+}
+
+.titre-bloc2 {
+  color: black;
+  font-family: tahoma;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: 45px;
+  min-height: 29px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.span0 {
+  color: #c5090e;
+}
+
+.span1 {
+  font-size: 30px;
+}
+
+.bloc-droit {
+  margin-top: 10%;
+}
+
+@font-face {
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url("https://fonts.animaapp.com/Tahoma") format("truetype");
+}
+
+.lorem-ipsum-ipsum2 {
+  color: black;
+  font-family: tahoma;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  min-height: 18px;
+  min-width: 114px;
+  padding-left: 16%;
+  white-space: nowrap;
+}
+
+.is-simply-dummy-text {
+  font-size: 20px;
+  height: 276px;
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 276px;
+  min-width: 282px;
+  width: 550px;
+}
+
+@font-face {
+  font-family: "PalatinoLinotype-Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PalatinoLinotype-Roman")
+    format("truetype");
+}
+
+.rectangle-2-copy-3 {
+  background-color: #febb5b;
+  position: absolute;
+  height: 700px;
+  width: 38px;
+  padding: 0 !important;
+  margin: 0% !important;
+}
+
+.rectangle-5 {
+  border: 9px solid #cfd5d4;
+  background-color: #cfd5d4 !important;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 50px #0000009e;
+  box-shadow: 0px 0px 50px #0000009e;
+  height: 37vw;
+  width: 50vw;
+  margin-top: 10%;
+}
+
+.form-bloc1 {
+  padding-left: -100px !important;
+}
+/*# sourceMappingURL=nosMetier.css.map */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 16;
+  overflow-x: hidden;
+}
+
+.form-page-home-gouche {
+  background-color: gray;
+  width: 70%;
+  height: 500px;
+}
+
+.nos-mtiers {
+  margin-left: 35%;
+  margin-top: 2%;
+  border: 5px groove #017ae2;
+  width: 340px;
+  height: 60px;
+  color: #017ae2;
+  font-family: var(--font-family-sylfaen);
+  font-size: 58px;
+  line-height: 52.2px;
+  min-height: 32px;
+  min-width: 116px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.titre-boloc2 {
+  margin-left: -40% !important;
+  color: black;
+  font-family: tahoma;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 27px;
+  min-height: 29px;
+  min-width: 188px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.span0 {
+  color: #c5090e;
+}
+
+.span1 {
+  font-size: 30px;
+}
+
+.bloc-droit {
+  margin-top: 10%;
+}
+
+@font-face {
+  font-family: "Tahoma";
+  font-style: normal;
+  font-weight: 1 1000;
+  src: url("https://fonts.animaapp.com/Tahoma") format("truetype");
+}
+
+.lorem-ipsum-ipsum2 {
+  color: black;
+  font-family: tahoma;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  min-height: 18px;
+  min-width: 114px;
+  padding-left: 16%;
+  white-space: nowrap;
+}
+
+.is-simply-dummy-text {
+  font-size: 35px;
+  height: 276px;
+  letter-spacing: 0;
+  line-height: 25px;
+  min-height: 276px;
+  min-width: 282px;
+  width: 550px;
+}
+
+@font-face {
+  font-family: "PalatinoLinotype-Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PalatinoLinotype-Roman")
+    format("truetype");
+}
+
+.form-bloc1 {
+  padding-left: -100px !important;
+}
+/*# sourceMappingURL=nosMetier.css.map */
+.rectangle-5-copy1 {
+  margin-left: 5%;
+  background-color: #cfd5d4 !important;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 50px #0000009e;
+  box-shadow: 0px 0px 50px #0000009e;
+  height: 30vw;
+  width: 48vw;
+}
+
+.block-left {
+  background-color: #d2d4ce;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 18px #0000009e;
+  box-shadow: 0px 0px 18px #0000009e;
+  height: 13vw;
+  width: 30vw;
+}
+
+.titre-bloc-left {
+  height: 37px;
+  letter-spacing: 0;
+  line-height: 14.4px;
+  min-height: 37px;
+  min-width: 87px;
+  width: 100px;
+  margin-left: 30% !important;
+}
+
+.ellipse-23 {
+  background-color: #952e31;
+  border-radius: 2.880000114440918px;
+  height: 6px;
+  width: 6px;
+}
+
+@font-face {
+  font-family: "PalatinoLinotype-Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PalatinoLinotype-Roman")
+    format("truetype");
+}
+
+.text-12 {
+  color: var(--black);
+  font-family: var(--font-family-palatinolinotype-roman);
+  font-size: var(--font-size-xs);
+  height: 73px;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 73px;
+  min-width: 200px;
+  opacity: 0.76;
+  width: 400px;
+  margin-left: 25% !important;
+}
+
+.pg-nosMetier {
+  margin-left: 10%;
+  font-size: 23px;
+  height: 276px;
+  line-height: 40px;
+  min-height: 276px;
+  min-width: 282px;
+  width: 600px;
+}
+
+.span055 {
+  color: #0073d0;
+}
+
+@font-face {
+  font-family: "PalatinoLinotype-Roman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/PalatinoLinotype-Roman")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "PalatinoLinotype-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/PalatinoLinotype-Bold")
+    format("truetype");
+}
+
+.button-plus2 {
+  position: absolute;
+  width: 150px;
+  height: 46px;
+  margin-top: -20%;
+  background: #fcc09d 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.rectangle-2-copy44 {
+  background-color: #febb5b;
+  position: absolute;
+  height: 850px;
+  width: 38px;
+  padding: 0 !important;
+  margin-top: -25%;
+  margin-left: 91.5% !important;
+}
+
+@media screen and (max-width: 420px) {
+  .titre-bloc1 {
+    font-size: 30px;
+  }
+
+  .Entreprise {
+    margin-left: 26%;
+    margin-top: 10%;
+    border: 5px groove #017ae2;
+    width: 190px;
+    height: 60px;
+    color: #017ae2;
+    font-family: var(--font-family-sylfaen);
+    font-size: 25px;
+    line-height: 52.2px;
+    min-height: 32px;
+    min-width: 116px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .pg1 {
+    margin-left: 12%;
+    font-size: 15px;
+    line-height: 30px;
+    min-height: 276px;
+    min-width: 282px;
+    width: 280px;
+    margin-bottom: -5%;
+    text-align: justify;
+  }
+
+  .nos-mtiers {
+    margin-left: 25%;
+    margin-top: 2%;
+    border: 5px groove #017ae2;
+    width: 190px;
+    height: 60px;
+    color: #017ae2;
+    font-family: var(--font-family-sylfaen);
+    font-size: 25px;
+    line-height: 52.2px;
+    min-height: 32px;
+    min-width: 116px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .titre-bloc2 {
+    color: black;
+    font-family: tahoma;
+    margin-left: 10%;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 30px;
+    min-height: 29px;
+    min-width: 188px;
+    text-align: center;
+    white-space: nowrap;
+    width: 240px;
+  }
+  .pg-nosMetier {
+    margin-left: 12%;
+    font-size: 15px;
+    height: 380px;
+    line-height: 30px;
+    min-height: 276px;
+    min-width: 282px;
+    width: 280px;
+    text-align: justify;
+  }
+
+  .rectangle-2-copy {
+    height: 900px !important;
+    width: 30px;
+    margin-left: 86.7% !important;
+
+    padding: 0 !important;
+  }
+  .rectangle-2-copy0 {
+    width: 30px;
+    margin-left: 86.7% !important;
+    height: 200px;
+    padding: 0 !important;
+  }
+  .rectangle-2-copy44 {
+    background-color: #febb5b;
+    position: absolute;
+    height: 850px;
+    padding: 0 !important;
+    margin-top: 30%;
+    width: 30px;
+    margin-left: 86.7% !important;
+  }
+  .rectangle-2-copy-3 {
+    position: absolute;
+    height: 800px;
+    width: 25px;
+    padding: 0 !important;
+    margin: 0% !important;
+  }
+
+  .button-plus-link {
+    color: black;
+    line-height: 27px;
+    letter-spacing: 0;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .button-plus {
+    line-height: 27px;
+    font-size: 15px;
+    letter-spacing: 0;
+    font-weight: bold;
+    min-height: 29px;
+    min-width: 188px;
+    text-align: center;
+    white-space: nowrap;
+    width: 150px;
+    height: 46px;
+    background: #fcc09d 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: black;
+    margin-left: 30%;
+  }
+
+  .block-left {
+    margin-left: 5%;
+    height: 40vw;
+    width: 75vw;
+  }
+  .rectangle-56 {
+    margin-left: 5%;
+    height: 40vw;
+    width: 75vw;
+  }
+
+  .rectangle-5-copy1 {
+    margin-left: 5%;
+    height: 40vw;
+    width: 75vw;
+    margin-bottom: 10%;
+  }
+  .rectangle-567 {
+    height: 40vw;
+    width: 75vw;
+  }
+  .logo {
+    height: 40vw;
+    width: 75vw;
+  }
+
+  .rectangle-5 {
+    height: 40vw;
+    width: 75vw;
+  }
+}

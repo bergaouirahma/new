@@ -1,0 +1,138 @@
+.footer {
+  width: 100%;
+  background: #464646;
+  margin: 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+
+  position: relative;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-color: rgba(4, 46, 136, 0.918);
+}
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid white;
+}
+.logo-footer2 {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  border-right: 1px solid white;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 20px 0px;
+  border-right: 1px solid white;
+}
+.footer-section > h4 {
+  margin: 0px;
+  padding: 0px 80px;
+  font-weight: 600;
+  font-size: 27px;
+}
+.footer-section > div {
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 10px;
+}
+.footer-section p {
+  margin-bottom: 6px;
+  font-size: 19px;
+}
+.footer-section i {
+  margin-right: 7px;
+  transform: translateY(2px);
+}
+.footer-section > div > span {
+  display: flex;
+  align-items: baseline;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.footer-social > h4 {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.footer-social > div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0px 0px 20px 0px;
+}
+
+.footer-social > div > img {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.footer-social > div > a {
+  padding: 0px 10px;
+}
+.footer-social input {
+  width: 100%;
+  padding: 6px 0px 6px 15px;
+  outline: none;
+  border: 1px solid #707070;
+  background: #707070;
+  border-radius: 20px;
+  color: white;
+}
+
+.footer > div:first-child {
+  margin: 0px;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: #febb5b;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-section > div {
+    align-items: center;
+  }
+  .footer-section {
+    align-items: center;
+  }
+  .footer-section > div {
+    padding-right: 50px;
+  }
+  .footer-section span {
+    text-align: center;
+  }
+  .footer-social > h4 {
+    font-size: 25px;
+  }
+  .footer-section > h4 {
+    font-size: 25px;
+  }
+}

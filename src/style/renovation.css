@@ -1,0 +1,80 @@
+.renov {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "text image";
+  padding: 40px 0px;
+}
+.renov > div:first-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-area: image;
+}
+.renov > div:first-child > img {
+  width: 90%;
+  height: 400px;
+}
+.renov > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 10%;
+  grid-area: text;
+}
+
+.renov > div:nth-child(2) > h2,
+.renov > div:nth-child(2) > h4 {
+  color: #af2a2f;
+  font-size: 30px;
+}
+
+.renov > div:nth-child(2) > p {
+  color: #000000;
+  font-size: 19px;
+  line-height: 35px;
+  text-align: justify;
+}
+.renov > div:nth-child(2) > p > span {
+  padding-left: 10px;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .renov {
+    grid-template-columns: 100%;
+    grid-template-areas: "image" "text";
+  }
+  .renov > div:first-child {
+    padding: 50px 0px;
+  }
+  .renov > div:first-child > img {
+    width: 60%;
+    height: 300px;
+  }
+  .renov > div:nth-child(2) {
+    align-items: center;
+  }
+  .renov > div:nth-child(2) p {
+    text-align: center;
+  }
+  .renov > div:first-child {
+    justify-content: center;
+  }
+  .renov {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .renov > div:first-child {
+    padding: 30px 0px;
+  }
+  .renov > div:first-child > img {
+    width: 70%;
+    height: 250px;
+  }
+  .renov > div:nth-child(2) {
+    padding: 0px 5%;
+  }
+}

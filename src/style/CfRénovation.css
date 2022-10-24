@@ -1,0 +1,46 @@
+.perft {
+  width: 100%;
+  position: relative;
+}
+.perft > img {
+  width: 100%;
+  height: 500px;
+}
+
+.perft > div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  background-color: rgba(131, 108, 73, 0.2);
+  backdrop-filter: blur(30px);
+  padding: 10px 0px;
+}
+.perft > div > h1 {
+  margin: 0;
+}
+
+.perft + div {
+  width: 100%;
+  margin: 30px 0px;
+  padding: 5%;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+.perft + div span {
+  font-weight: bold;
+}
+
+@media (max-width: 720px) {
+  .perft > img {
+    height: 300px;
+  }
+  .perft + div {
+    text-align: center;
+    padding: 5%;
+  }
+}
